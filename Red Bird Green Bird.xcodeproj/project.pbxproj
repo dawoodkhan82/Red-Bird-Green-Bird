@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E33DB3F1A5E5AE8005E24CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E33DB3E1A5E5AE8005E24CA /* AppDelegate.swift */; };
+		8E33DB411A5E5AE8005E24CA /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 8E33DB401A5E5AE8005E24CA /* GameScene.sks */; };
+		8E33DB431A5E5AE8005E24CA /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E33DB421A5E5AE8005E24CA /* GameScene.swift */; };
+		8E33DB451A5E5AE8005E24CA /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E33DB441A5E5AE8005E24CA /* GameViewController.swift */; };
+		8E33DB481A5E5AE8005E24CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E33DB461A5E5AE8005E24CA /* Main.storyboard */; };
+		8E33DB4A1A5E5AE8005E24CA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E33DB491A5E5AE8005E24CA /* Images.xcassets */; };
+		8E33DB4D1A5E5AE8005E24CA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E33DB4B1A5E5AE8005E24CA /* LaunchScreen.xib */; };
+		8E33DB591A5E5AE8005E24CA /* Red_Bird_Green_BirdTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E33DB581A5E5AE8005E24CA /* Red_Bird_Green_BirdTests.swift */; };
+		8E7586B71A6AE1F300C140F4 /* Bird Final 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E7586B61A6AE1F300C140F4 /* Bird Final 2.png */; };
+		8E7586B91A6AE1FF00C140F4 /* Bird Final 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E7586B81A6AE1FF00C140F4 /* Bird Final 1.png */; };
+		8E7586BB1A6AE37A00C140F4 /* Highscore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7586BA1A6AE37A00C140F4 /* Highscore.swift */; };
+		8E7586C31A72132200C140F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7586C21A72132200C140F4 /* ViewController.swift */; };
+		8EE1A7B51B0D79640048375B /* Cloud Background pixel.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EE1A7B41B0D79640048375B /* Cloud Background pixel.png */; };
+		8EE1A7BD1B0D84E60048375B /* GAME OVER.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EE1A7BC1B0D84E60048375B /* GAME OVER.png */; };
+		8EE1A7D11B1832690048375B /* green stoplight pixel.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EE1A7D01B1832690048375B /* green stoplight pixel.png */; };
+		8EE1A7D51B1833240048375B /* red stoplight pixel.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EE1A7D41B1833240048375B /* red stoplight pixel.png */; };
+		8EFEFE6B1A64D36E00AECCE2 /* Two Finger Johnny.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8EFEFE6A1A64D36E00AECCE2 /* Two Finger Johnny.mp3 */; };
+		8EFEFE6D1A663F3C00AECCE2 /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFEFE6C1A663F3C00AECCE2 /* GameOverScene.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8E33DB531A5E5AE8005E24CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E33DB311A5E5AE8005E24CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E33DB381A5E5AE8005E24CA;
+			remoteInfo = "Red Bird Green Bird";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8E33DB391A5E5AE8005E24CA /* Red Bird Green Bird.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Red Bird Green Bird.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E33DB3D1A5E5AE8005E24CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E33DB3E1A5E5AE8005E24CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8E33DB401A5E5AE8005E24CA /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		8E33DB421A5E5AE8005E24CA /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		8E33DB441A5E5AE8005E24CA /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		8E33DB471A5E5AE8005E24CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8E33DB491A5E5AE8005E24CA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8E33DB4C1A5E5AE8005E24CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		8E33DB521A5E5AE8005E24CA /* Red Bird Green BirdTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Red Bird Green BirdTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E33DB571A5E5AE8005E24CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E33DB581A5E5AE8005E24CA /* Red_Bird_Green_BirdTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Red_Bird_Green_BirdTests.swift; sourceTree = "<group>"; };
+		8E7586B61A6AE1F300C140F4 /* Bird Final 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bird Final 2.png"; sourceTree = "<group>"; };
+		8E7586B81A6AE1FF00C140F4 /* Bird Final 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bird Final 1.png"; sourceTree = "<group>"; };
+		8E7586BA1A6AE37A00C140F4 /* Highscore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Highscore.swift; sourceTree = "<group>"; };
+		8E7586C21A72132200C140F4 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8EE1A7B41B0D79640048375B /* Cloud Background pixel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cloud Background pixel.png"; sourceTree = "<group>"; };
+		8EE1A7BC1B0D84E60048375B /* GAME OVER.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GAME OVER.png"; sourceTree = "<group>"; };
+		8EE1A7D01B1832690048375B /* green stoplight pixel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "green stoplight pixel.png"; sourceTree = "<group>"; };
+		8EE1A7D41B1833240048375B /* red stoplight pixel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "red stoplight pixel.png"; sourceTree = "<group>"; };
+		8EFEFE6A1A64D36E00AECCE2 /* Two Finger Johnny.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Two Finger Johnny.mp3"; sourceTree = "<group>"; };
+		8EFEFE6C1A663F3C00AECCE2 /* GameOverScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GameOverScene.swift; path = ../GameOverScene.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E33DB361A5E5AE8005E24CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E33DB4F1A5E5AE8005E24CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E33DB301A5E5AE8005E24CA = {
+			isa = PBXGroup;
+			children = (
+				8E33DB3B1A5E5AE8005E24CA /* Red Bird Green Bird */,
+				8E33DB551A5E5AE8005E24CA /* Red Bird Green BirdTests */,
+				8E33DB3A1A5E5AE8005E24CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8E33DB3A1A5E5AE8005E24CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E33DB391A5E5AE8005E24CA /* Red Bird Green Bird.app */,
+				8E33DB521A5E5AE8005E24CA /* Red Bird Green BirdTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E33DB3B1A5E5AE8005E24CA /* Red Bird Green Bird */ = {
+			isa = PBXGroup;
+			children = (
+				8EE1A7D01B1832690048375B /* green stoplight pixel.png */,
+				8EE1A7D41B1833240048375B /* red stoplight pixel.png */,
+				8EE1A7B41B0D79640048375B /* Cloud Background pixel.png */,
+				8E7586B81A6AE1FF00C140F4 /* Bird Final 1.png */,
+				8E7586B61A6AE1F300C140F4 /* Bird Final 2.png */,
+				8EE1A7BC1B0D84E60048375B /* GAME OVER.png */,
+				8EFEFE6A1A64D36E00AECCE2 /* Two Finger Johnny.mp3 */,
+				8E7586BA1A6AE37A00C140F4 /* Highscore.swift */,
+				8E33DB3E1A5E5AE8005E24CA /* AppDelegate.swift */,
+				8E33DB401A5E5AE8005E24CA /* GameScene.sks */,
+				8E33DB421A5E5AE8005E24CA /* GameScene.swift */,
+				8E33DB441A5E5AE8005E24CA /* GameViewController.swift */,
+				8EFEFE6C1A663F3C00AECCE2 /* GameOverScene.swift */,
+				8E33DB461A5E5AE8005E24CA /* Main.storyboard */,
+				8E7586C21A72132200C140F4 /* ViewController.swift */,
+				8E33DB491A5E5AE8005E24CA /* Images.xcassets */,
+				8E33DB4B1A5E5AE8005E24CA /* LaunchScreen.xib */,
+				8E33DB3C1A5E5AE8005E24CA /* Supporting Files */,
+			);
+			path = "Red Bird Green Bird";
+			sourceTree = "<group>";
+		};
+		8E33DB3C1A5E5AE8005E24CA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E33DB3D1A5E5AE8005E24CA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8E33DB551A5E5AE8005E24CA /* Red Bird Green BirdTests */ = {
+			isa = PBXGroup;
+			children = (
+				8E33DB581A5E5AE8005E24CA /* Red_Bird_Green_BirdTests.swift */,
+				8E33DB561A5E5AE8005E24CA /* Supporting Files */,
+			);
+			path = "Red Bird Green BirdTests";
+			sourceTree = "<group>";
+		};
+		8E33DB561A5E5AE8005E24CA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E33DB571A5E5AE8005E24CA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E33DB381A5E5AE8005E24CA /* Red Bird Green Bird */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E33DB5C1A5E5AE8005E24CA /* Build configuration list for PBXNativeTarget "Red Bird Green Bird" */;
+			buildPhases = (
+				8E33DB351A5E5AE8005E24CA /* Sources */,
+				8E33DB361A5E5AE8005E24CA /* Frameworks */,
+				8E33DB371A5E5AE8005E24CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Red Bird Green Bird";
+			productName = "Red Bird Green Bird";
+			productReference = 8E33DB391A5E5AE8005E24CA /* Red Bird Green Bird.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8E33DB511A5E5AE8005E24CA /* Red Bird Green BirdTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E33DB5F1A5E5AE8005E24CA /* Build configuration list for PBXNativeTarget "Red Bird Green BirdTests" */;
+			buildPhases = (
+				8E33DB4E1A5E5AE8005E24CA /* Sources */,
+				8E33DB4F1A5E5AE8005E24CA /* Frameworks */,
+				8E33DB501A5E5AE8005E24CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E33DB541A5E5AE8005E24CA /* PBXTargetDependency */,
+			);
+			name = "Red Bird Green BirdTests";
+			productName = "Red Bird Green BirdTests";
+			productReference = 8E33DB521A5E5AE8005E24CA /* Red Bird Green BirdTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E33DB311A5E5AE8005E24CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Dawood Khan";
+				TargetAttributes = {
+					8E33DB381A5E5AE8005E24CA = {
+						CreatedOnToolsVersion = 6.0.1;
+						DevelopmentTeam = RHW8FBGSTX;
+					};
+					8E33DB511A5E5AE8005E24CA = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 8E33DB381A5E5AE8005E24CA;
+					};
+				};
+			};
+			buildConfigurationList = 8E33DB341A5E5AE8005E24CA /* Build configuration list for PBXProject "Red Bird Green Bird" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8E33DB301A5E5AE8005E24CA;
+			productRefGroup = 8E33DB3A1A5E5AE8005E24CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E33DB381A5E5AE8005E24CA /* Red Bird Green Bird */,
+				8E33DB511A5E5AE8005E24CA /* Red Bird Green BirdTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E33DB371A5E5AE8005E24CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EFEFE6B1A64D36E00AECCE2 /* Two Finger Johnny.mp3 in Resources */,
+				8E33DB4D1A5E5AE8005E24CA /* LaunchScreen.xib in Resources */,
+				8EE1A7B51B0D79640048375B /* Cloud Background pixel.png in Resources */,
+				8EE1A7D11B1832690048375B /* green stoplight pixel.png in Resources */,
+				8E33DB4A1A5E5AE8005E24CA /* Images.xcassets in Resources */,
+				8EE1A7BD1B0D84E60048375B /* GAME OVER.png in Resources */,
+				8E7586B71A6AE1F300C140F4 /* Bird Final 2.png in Resources */,
+				8E33DB411A5E5AE8005E24CA /* GameScene.sks in Resources */,
+				8E7586B91A6AE1FF00C140F4 /* Bird Final 1.png in Resources */,
+				8EE1A7D51B1833240048375B /* red stoplight pixel.png in Resources */,
+				8E33DB481A5E5AE8005E24CA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E33DB501A5E5AE8005E24CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E33DB351A5E5AE8005E24CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E7586C31A72132200C140F4 /* ViewController.swift in Sources */,
+				8E33DB431A5E5AE8005E24CA /* GameScene.swift in Sources */,
+				8E33DB451A5E5AE8005E24CA /* GameViewController.swift in Sources */,
+				8EFEFE6D1A663F3C00AECCE2 /* GameOverScene.swift in Sources */,
+				8E33DB3F1A5E5AE8005E24CA /* AppDelegate.swift in Sources */,
+				8E7586BB1A6AE37A00C140F4 /* Highscore.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E33DB4E1A5E5AE8005E24CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E33DB591A5E5AE8005E24CA /* Red_Bird_Green_BirdTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8E33DB541A5E5AE8005E24CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E33DB381A5E5AE8005E24CA /* Red Bird Green Bird */;
+			targetProxy = 8E33DB531A5E5AE8005E24CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8E33DB461A5E5AE8005E24CA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E33DB471A5E5AE8005E24CA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8E33DB4B1A5E5AE8005E24CA /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E33DB4C1A5E5AE8005E24CA /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8E33DB5A1A5E5AE8005E24CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8E33DB5B1A5E5AE8005E24CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E33DB5D1A5E5AE8005E24CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Dawood Khan (RHW8FBGSTX)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Red Bird Green Bird/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		8E33DB5E1A5E5AE8005E24CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Dawood Khan (RHW8FBGSTX)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Red Bird Green Bird/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		8E33DB601A5E5AE8005E24CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Red Bird Green BirdTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Red Bird Green Bird.app/Red Bird Green Bird";
+			};
+			name = Debug;
+		};
+		8E33DB611A5E5AE8005E24CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Red Bird Green BirdTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Red Bird Green Bird.app/Red Bird Green Bird";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E33DB341A5E5AE8005E24CA /* Build configuration list for PBXProject "Red Bird Green Bird" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E33DB5A1A5E5AE8005E24CA /* Debug */,
+				8E33DB5B1A5E5AE8005E24CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E33DB5C1A5E5AE8005E24CA /* Build configuration list for PBXNativeTarget "Red Bird Green Bird" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E33DB5D1A5E5AE8005E24CA /* Debug */,
+				8E33DB5E1A5E5AE8005E24CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E33DB5F1A5E5AE8005E24CA /* Build configuration list for PBXNativeTarget "Red Bird Green BirdTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E33DB601A5E5AE8005E24CA /* Debug */,
+				8E33DB611A5E5AE8005E24CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E33DB311A5E5AE8005E24CA /* Project object */;
+}
